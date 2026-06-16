@@ -15,7 +15,7 @@ than acquiring one. This project predicts *which* customers are likely to churn 
 customers.
 
 ## What it does
-- **SQL / BI layer** — customer data loaded into SQLite; queries quantify churn by
+- **SQL layer** — customer data loaded into SQLite; queries quantify churn by
   contract, tenure, service type, and payment method, plus monthly revenue at risk.
 - **ML model** — XGBoost classifier (class-imbalance-weighted) predicting churn
   probability. **ROC-AUC ≈ 0.84**, churn recall ≈ 0.78 (catches ~4 of 5 churners).
