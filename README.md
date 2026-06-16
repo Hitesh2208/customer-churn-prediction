@@ -71,4 +71,7 @@ streamlit run app.py
 ```
 The app opens at http://localhost:8501
 
+## Live Demo
+https://customer-churn-prediction-kpofrw6ybqt24oexrtmuad.streamlit.app/
+
 
