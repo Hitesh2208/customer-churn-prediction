@@ -71,20 +71,4 @@ streamlit run app.py
 ```
 The app opens at http://localhost:8501
 
-### Optional extras
-```bash
-python build_db.py             # rebuild the SQL database
-python train_pipeline.py       # retrain the model + SHAP
-# Explore SQL: open data/telco.db in DB Browser for SQLite and run sql_analysis.sql
-```
 
-## How to deploy (free, gets you a live URL)
-1. Push this folder to a **public GitHub repo**.
-2. Go to https://share.streamlit.io → New app → pick the repo → main file `app.py`.
-3. Wait ~2 min for build, then copy the live URL into this README and your resume.
-
----
-### Resume bullet
-> Built and deployed an explainable customer churn prediction app (Python, XGBoost,
-> SHAP, SQL, Streamlit) achieving 0.84 ROC-AUC; surfaced per-customer and global churn
-> drivers and quantified monthly revenue at risk, enabling risk-tiered retention targeting.
